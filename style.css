@@ -324,6 +324,49 @@ li {
     margin: auto;
     transform: rotate(-45deg);
 }
+
+.skills-content {
+    margin: 5rem auto 0 auto;
+}
+
+.skills-content h1 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 500;
+    margin: 1rem 0;
+}
+
+.skills-content .skills-icons {
+    margin-top: 5rem;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+}
+
+.skills-content .skills-icons .skill-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    width: 6.5rem;
+    height: 6.5rem;
+    border-radius: 10%;
+    margin: auto;
+}
+
+.skills-content .skills-icons .skill-icon img {
+    width: 5rem;
+    height: 5rem;
+}
+
+.skills-content .skills-icons .skill-icon h6 {
+    color: #000;
+    text-transform: uppercase;
+}
 /*End services*/
 
 
